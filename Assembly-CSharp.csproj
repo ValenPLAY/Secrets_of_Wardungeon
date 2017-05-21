@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FA47094F-CF81-EF63-C879-F825A4A25F26}</ProjectGuid>
+    <ProjectGuid>{9B6114DE-6815-1D69-92E4-E90E27FCDDB3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,9 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Elenesski Generic Move Camera\GenericMoveCamera.cs" />
-     <Compile Include="Assets\Elenesski Generic Move Camera\GenericMoveCameraInputs.cs" />
-     <None Include="Assets\Wispy Sky\ReadMe.txt" />
+     <Compile Include="Assets\Preview.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
