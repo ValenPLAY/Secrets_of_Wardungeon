@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-class Door : MonoBehaviour, IInteractive
+partial class Door : MonoBehaviour, IInteractive
 {
     public string keyId = "";
     public bool isInteractive = true;
