@@ -68,6 +68,7 @@ public abstract class Enemy : MonoBehaviour, IHitable
         int dmg = defence.CalculateFinalDamage(hitInfo.damage);
         health -= dmg;
         hitTime = Time.time;
+
         SoundController.Play(idHitSound, transform.position);
 
         if (hitInfo.isShowEffect && hitEffectObject != null)

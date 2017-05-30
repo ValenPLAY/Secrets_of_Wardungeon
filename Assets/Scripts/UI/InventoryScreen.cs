@@ -64,7 +64,9 @@ public class InventoryScreen : Form
         helmetSlot.onHover += OnSlotHover;
         amuletSlot.onHover += OnSlotHover;
         ringSlot.onHover += OnSlotHover;
-        dropSlot.onHover += OnSlotHover;
+
+        // TODO: uncomment and fix null exception
+        //dropSlot.onHover += OnSlotHover;
 
         foreach (ItemSlot itemSlot in slots)
         {

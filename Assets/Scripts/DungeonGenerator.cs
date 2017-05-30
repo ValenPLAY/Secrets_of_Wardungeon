@@ -299,6 +299,7 @@ public class DungeonGenerator : MonoBehaviour {
                 //destroy the room we just tried to place
             }
         } while (possibleRooms.Count > 0 && !roomIsGood);
+
         if (!roomIsGood) {
             //we failed!
             //Debug.Log("NO ROoms THAT FIT, THIS IS BAAAAD! ... but should never happen!");
